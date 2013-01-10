@@ -1,4 +1,4 @@
-use Test::More tests => 9;
+use Test::More;
 
 use strict;
 use warnings;
@@ -80,3 +80,5 @@ $cv->recv;
 
 ok( 1, '... arrived' );
 }
+
+done_testing;
